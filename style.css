@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    height: 100%;
+}
+
+.menu-btn{
+color: #424144;
+font-size: 23px;
+cursor: pointer;
+display: none;
+}
+
+.navbar{
+padding: 20px 5%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+position: sticky;
+top:0%;
+z-index: 999;
+background-color: #f3f4f6;
+box-shadow: 0 0 014px rgba(0,0,0,0.3);
+}
+.navbar .logo h1{
+    color: #424144;
+    border-bottom: 4px solid#fd6561;
+}
+li{
+    list-style: none;
+    display: inline-block;
+    padding-left: 10px;
+}
+.navbar .menu li a{
+    display: block;
+    margin-left: 20px;
+    color: #424144;
+    border-bottom: 4px solid transparent;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.navbar .menu li .active{
+    border-bottom: 4px solid #f63e4e;
+}
+.navbar .menu li a i{
+    color: #f63e4e;
+}
+
+.navbar .menu li a i :hover{
+    border-bottom: 4px solid #f63e4e
+}
+.content{
+    background-image: url(shopping.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    padding:  0 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: #424144;
+    height: 100vh;
+}
+.content h1{
+    font-size: 40px;
+}
+.content p{
+    font-size: 20px;
+    margin-top: 20px;
+}
+.content button{
+    margin-top: 30px;
+    padding: 15px 30 px ;
+    border:none;
+    background:#f63e4e;
+    color:white;
+    font-size:20px;
+    border-radius:5px;
+    cursor:pointer;
+
+}
+.pheading{
+    text-align: center;
+    margin: 50px 0;
+    color: #424144;
+}
+
+.products{
+height: 120px;
+}
+
+.products .card{
+    width:310px;
+    background: #f3f4f6;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+    border-radius:5px;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+ img{
+    height: 120px;
+    width: 100%;}
+
+.card-title{
+    font-weight: 900;
+    font-size: 20px;
+    color: #424144;
+    padding: 0 20px;
+}
+
+h4{
+    color: #f63e4e;
+    font-size: 20px;
+    font-weight: bold;
+}
+button{
+    font-size: 13px;
+    color: #f63e4e;
+    padding: 10px 18px ;
+    font-weight: 900;
+    border:1px solid #f63e4e;
+    border-radius: 20px;
+}
+button:hover{
+    cursor: pointer;
+    background-color: #f63e4e;
+    color: white;
+}
